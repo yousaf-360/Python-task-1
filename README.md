@@ -36,9 +36,3 @@ After running the application, you will be presented with a menu in the terminal
 ## Contributing
 
 Feel free to fork the repository and submit pull requests with improvements or bug fixes. Make sure to follow standard coding conventions and provide clear commit messages.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
