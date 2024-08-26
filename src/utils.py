@@ -17,12 +17,15 @@ def handle_menu_options(manager: TaskManager):
             if user_input == 1:
                 task_desc = input('Enter task description: ')
                 manager.add_task(task_desc)
+                manager.save_tasks()
             elif user_input == 2:
                 task_id = input('Enter task ID to delete: ')
                 manager.delete_task(task_id)
+                manager.save_tasks()
             elif user_input == 3:
                 task_id = input('Enter task ID to update: ')
                 manager.update_status(task_id)
+                manager.save_tasks()
             elif user_input == 4:
                 manager.print_tasks()
             elif user_input == 5:
