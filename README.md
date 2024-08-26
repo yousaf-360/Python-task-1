@@ -16,7 +16,6 @@ A simple Task Manager application built in Python, utilizing data classes and a 
 - `task_manager.py`: Manages tasks, including adding, deleting, updating, and saving tasks.
 - `utils.py`: Provides utility functions for displaying the menu and handling user input.
 - `main.py`: Entry point for the application that initializes and runs the Task Manager.
-- `settings.json`: VS Code settings for terminal configuration and other editor preferences.
 
 ## Setup
 
