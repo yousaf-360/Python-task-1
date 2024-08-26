@@ -5,7 +5,7 @@ import uuid
 class Task:
     description: str
     completed: bool = field(default=False)
-    id: str = field(default_factory=lambda: str(uuid.uuid4())[:4])  
+    id: str = field(default_factory=lambda: str(uuid.uuid4())[:3])  
 
     def mark_completed(self):
         self.completed = True

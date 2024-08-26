@@ -2,7 +2,7 @@ from TaskManager import TaskManager
 from utils import handle_menu_options
 
 def main(): 
-        manager = TaskManager('data.json')
+        manager = TaskManager('src/data.json')
         handle_menu_options(manager)
         
 if __name__ =='__main__':
